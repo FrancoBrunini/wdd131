@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Sansita", sans-serif;
 }
@@ -26,10 +27,12 @@ main {
 h1 {
     font-size: 2rem;
     padding: 1rem;
+    font-family: "Roboto", sans-serif;
 }
 
 nav {
-    background-color: #36454f;
+    background-color: gray;
+    color:#fff
 }
 
 nav ul {
