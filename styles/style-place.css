@@ -32,7 +32,6 @@ section {
     padding: 1rem;
     border-radius: 10px;
   margin-bottom: 1.5rem;
-  
 
 }
 h2 {
@@ -74,17 +73,20 @@ main {
 
         width: 90%;
         max-width: 1200px;
+        
     }
         @media (min-width: 768px) {
     
             .data {
                 justify-self: start;
                 align-self: start;
+                opacity: 85%;
             }
     
             .weather {
                 justify-self: end;
                 align-self: end;
+                opacity: 85%;
             }
     
         }
