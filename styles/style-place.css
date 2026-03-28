@@ -49,6 +49,7 @@ strong {
 }
 .hero{
     position:relative;
+    background-color: var(--secondary);
 }
 main {
     display: block;
@@ -56,9 +57,17 @@ main {
         max-width: 500px;
         margin: 0 auto;
 }
-.weather h2::after {
-    content: " ⛅";
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: var(--secondary);
 }
+
+.weather-icon {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
 @media (min-width: 768px) {
     main {
         position: absolute;
@@ -74,6 +83,12 @@ main {
         max-width: 1200px;
         
     }
+        .weather h2::after {
+            content: " ⛅";
+        }
+        .weather-icon {
+            display: none;
+        }
 
     
             .data {
