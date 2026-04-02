@@ -131,7 +131,6 @@ function displayTemples(filteredTemples) {
 function getYear(temple) {
     return parseInt(temple.dedicated.split(",")[0]);
 }
-displayTemples(temples);
 document.querySelector("#home").addEventListener("click", () => {
     displayTemples(temples);
 });
