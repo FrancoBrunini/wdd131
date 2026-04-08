@@ -36,8 +36,8 @@ const select = document.getElementById("product");
 products.forEach(product => {
     const option = document.createElement("option");
 
-    option.value = product.id;     // 👈 value = id
-    option.textContent = product.name; // 👈 texto visible
+    option.value = product.id;     
+    option.textContent = product.name; 
 
     select.appendChild(option);
 });
