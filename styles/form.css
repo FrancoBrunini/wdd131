@@ -22,7 +22,7 @@ header,
 main {
     margin: 0 auto;
 }
-h2 {
+h1 {
     font-size: 2rem;
     padding: 1rem;
     font-family: "Roboto", sans-serif;
@@ -87,7 +87,7 @@ footer {
         background-color: #e0e0e0;
     }
 
-    h2 {
+    h1{
         font-size: 2.5rem;
     }
 }
