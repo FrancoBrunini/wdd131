@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+        <script src="scripts/form.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <meta name="Product review"
+        content="This is a setup where users can rate a service">
+    <meta name="author" content="Franco Bruñini">
+
+</head>
+<body>
+    <h2>Product Review</h2>
+    
+    <form method="get" action="review.html"> 
+<div>
+<label for="product">Product Name</label><br>
+<select id="product" name="product" required>
+    <option value="" disabled selected>Select a Product ...</option>
+    <option value="nut">Nuts</option>
+    <option value="peanut">Peanut</option>
+    <option value="corn">Corn</option>
+</select>
+</div>
+
+<br><br>
+<fieldset>
+<legend>Overall Rating</legend>
+
+<input type="radio" id="star1" name="rating" value="1" required>
+<label for="star1">☆</label><br>
+
+<input type="radio" id="star2" name="rating" value="2">
+<label for="star2">☆☆</label><br>
+
+<input type="radio" id="star3" name="rating" value="3">
+<label for="star3">☆☆☆</label><br>
+
+<input type="radio" id="star4" name="rating" value="4">
+<label for="star4">☆☆☆☆</label><br>
+
+<input type="radio" id="star5" name="rating" value="5">
+<label for="star5">☆☆☆☆☆</label><br>
+</fieldset>
+<br><br>
+
+<div>
+<label for="date">Date of Installation</label><br>
+<input type="date" id="date" name="date" required>
+</div>
+
+<br><br>
+
+<fieldset>
+<legend>Which feature did you find useful in the product? (check all that apply)</legend><br>
+
+<input type="checkbox" name="features" value="durability" id="durability"> 
+<label for="durability">Durability</label><br>
+
+<input type="checkbox" name="features" value="ease of use" id="ease"> 
+<label for="ease">Ease of use</label><br>
+
+<input type="checkbox" name="features" value="performance" id="performance"> 
+<label for="performance">performance</label><br>
+
+<input type="checkbox" name="features" value="design" id="design"> 
+<label for="design">Design</label><br>
+
+</fieldset>
+<br><br>
+
+<div>
+<label for="review">Written Review (optional)</label><br>
+<textarea id="review" name="review" rows="4" cols="40"></textarea>
+</div>
+        <br><br>
+<div>
+<label for="name">Your name (optional)</label><br>
+<input type="text" id="name" name="name">
+</div>
+<div>
+    <input type="submit" value="Post Review">
+</div>
+
+    </form>
+    <footer>
+        <p>© <span id="currentyear"></span> | Franco Bruñini | Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+
+</html>
