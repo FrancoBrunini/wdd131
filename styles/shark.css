@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        margin: 0 auto 1rem auto;
+        display: block;
+}
+.hover {
+    transition: transform 0.3s;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #0a2540;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.Tittle {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    color: #00c2ff;
+}
+
+main {
+    padding: 2rem;
+}
+strong{
+    font-size: 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #0a2540;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #1a4b7a;
+        text-align: center;
+}
+.contactus{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+}
+footer {
+    grid-column: 1/3;
+    background-color: #0a2540;
+    color: white;
+    text-align: center;
+
+}
+.about {
+grid-template-columns: 1fr 1fr ;
+display: grid;
+ 
+}
+.about p{
+    font-size:30px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+form {
+ 
+}
