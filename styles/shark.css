@@ -151,6 +151,9 @@ text-align: center;
         margin: 0 auto;
 }
 @media (max-width: 768px) {
+    .about {
+            grid-template-columns: 1fr;
+        }
 
     header {
         padding: 1rem;
