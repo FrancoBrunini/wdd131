@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <script src="scripts/shark.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/shark.css">
+
+    <meta name="author" content="Franco Bruñini">
+    <meta name="description"
+        content="Here the customer can reach us through their email or phone number and we can schedule a time where we can help them directly.">
+
+</head>
+<body>
+    <img src="images/Contact.jpg" alt="Brazil landscape">
+    <main>
+        <div>
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for ="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message (optional)</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Start with us!">
+        </div>
+
+        <h1>
+            Contact us for the future of your business!
+        </h1>
+        <p>
+            Complete the form or contact us @sharkproject@gmail.com
+        </p>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Franco Bruñini | Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>

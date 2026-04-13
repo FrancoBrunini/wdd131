@@ -1,0 +1,10 @@
+My website project it will be about business focused on helping people to start a business by showing stadistics, examples, experiences, ideas, benefits, etc.
+The website will include three pages:
+Home page:
+Introducing the whole page, it needs to be the most attractive one
+Learning page and resources page: 
+Simple explanations, examples, and tips for beginners.
+Contact us page:
+A page where they can get in touch with us through email or phone. It's always necessary to have this section in your page to have interactions with users.
+
+I'm choosing this topic because I recently quit from my job to start a business and I have learned so much so I want to share my knowledge with everyone.
